@@ -1,0 +1,32 @@
+<!-- templates/index.html -->
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>BNS Suggestion</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>BNS Suggestion Engine</h1>
+
+    <div class="controls">
+      <select id="lang">
+        <option value="en-US">English (en-US)</option>
+        <option value="hi-IN">Hindi (hi-IN)</option>
+        <option value="bn-IN">Bengali</option>
+        <option value="ta-IN">Tamil</option>
+        <option value="mr-IN">Marathi</option>
+      </select>
+
+      <button id="mic">🎤 Speak</button>
+      <input id="query" type="text" placeholder="Describe the incident (speak or type)..." />
+      <button id="search">🔍 Search</button>
+    </div>
+
+    <div id="results"></div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

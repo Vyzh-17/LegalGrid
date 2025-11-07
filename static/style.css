@@ -1,0 +1,10 @@
+/* static/style.css */
+body { font-family: Inter, Arial, sans-serif; background:#f7f8fb; color:#111; padding:20px; }
+.container { max-width:900px; margin:0 auto; }
+.controls { display:flex; gap:8px; margin-bottom:12px; align-items:center; }
+#query { flex:1; padding:8px; border-radius:6px; border:1px solid #ddd; }
+button { padding:8px 12px; border-radius:6px; border: none; background:#0066ff; color:white; cursor:pointer; }
+button:disabled { background:#999; cursor:not-allowed; }
+.card { background:white; padding:12px; border-radius:8px; margin-bottom:8px; box-shadow:0 4px 8px rgba(0,0,0,0.04); }
+.row { display:flex; justify-content:space-between; margin-bottom:6px; }
+.desc { color:#333; white-space:pre-wrap; }
